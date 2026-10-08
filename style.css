@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 32px;
+	color: #17324d;
+	font-family: Arial, "Microsoft JhengHei", sans-serif;
+}
+
+.parent {
+	width: 80%;
+	padding: 20px;
+	border: 3px solid #286c86;
+	background: #dceef5;
+}
+
+.child {
+	width: 50%;
+	margin-top: 16px;
+	padding: 16px;
+	border: 2px solid #bd7729;
+	background: #f8e7c8;
+}
+
+.grandchild {
+	width: 50%;
+	margin-top: 12px;
+	padding: 12px;
+	border: 2px solid #4c7b48;
+	background: #dcebd7;
+}
+
+@media (max-width: 600px) {
+	body {
+		margin: 20px;
+	}
+
+	.parent {
+		width: 100%;
+	}
+}
