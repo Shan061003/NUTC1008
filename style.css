@@ -50,3 +50,17 @@ body {
 .event-card h2 {
   margin-top: 0;
 }
+.with-badge {
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: -16px;
+  right: 24px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: #e76f51;
+  color: white;
+  font-weight: bold;
+}
